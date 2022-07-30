@@ -20,8 +20,8 @@ def funchallenge(input):
     temp = temp +50 #O(1)
     for i in range(len(input)): #O(n)
         var = True #n*O(1)
-        a += 1 #n*O(1)
-    return a #O(1)
+        temp += 1 #n*O(1)
+    return temp #O(1)
 
 funchallenge(nemo)
 funchallenge(everyone)
